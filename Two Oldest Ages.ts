@@ -1,9 +1,8 @@
-# Two Oldest Ages
-
+<!-- # Two Oldest Ages
 https://www.codewars.com/kata/511f11d355fe575d2c000001/train/typescript
+ -->
 
-```js
 function twoOldestAges(ages: number[]): number[] {
   return ages.sort((a, b) => a - b).slice(-2);
 }
-```
+
